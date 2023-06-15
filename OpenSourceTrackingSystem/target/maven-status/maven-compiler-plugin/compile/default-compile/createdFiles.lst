@@ -1,0 +1,16 @@
+com\ase\osts\daoImpl\ProjectClientDaoImpl.class
+com\ase\osts\domain\ProjectClientModel.class
+com\ase\osts\dao\ProjectClientDao.class
+com\ase\osts\service\ProjectClientService.class
+com\ase\osts\domain\ProjectDomain.class
+com\ase\osts\serviceImpl\ProjectServiceImpl.class
+com\ase\osts\repository\ProjectClientRepository.class
+com\ase\osts\serviceImpl\ProjectClientServiceImpl.class
+com\ase\osts\OpenSourceTrackingSystemApplication.class
+com\ase\osts\repository\ProjectRepository.class
+com\ase\osts\domain\ProjectClientDomain.class
+com\ase\osts\service\ProjectService.class
+com\ase\osts\controller\ProjectClientController.class
+com\ase\osts\controller\ProjectController.class
+com\ase\osts\dao\ProjectDao.class
+com\ase\osts\daoImpl\ProjectDaoImpl.class

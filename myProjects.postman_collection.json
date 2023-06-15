@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "72ee723c-7861-4b24-9364-8475bf45c748",
+		"name": "myProjects",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21623099"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/addProjectClientRole",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"projectClientRoleName\": \"Requester\",\r\n    \"projectClientRoleDescription\": \"One who can request the project\",\r\n    \"createdBy\": \"mohan\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/addProjectClientRole",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addProjectClientRole"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/addProjectClientState",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"openSourceProjectStateName\": \"Denied\",\r\n    \"openSourceProjecStatetDescription\": \"Denied state\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/addOSProjectState",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addOSProjectState"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
